@@ -21,7 +21,7 @@ body  {
     width: 100%;
     height: 130vh;
     background:  linear-gradient(rgba(0,0,0, .6),rgba(0, 0 , 0, .3)),
-     url(images/1.jpg) center no-repeat;
+     url(images/6.jpg) center no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -86,7 +86,7 @@ body  {
     left: 0;
     background-color: green;
     background:  linear-gradient(rgba(0,0,0, .5),rgba(0, 0 , 0, .7)),
-     url(images/2.jpg) no-repeat;
+     url(images/5.jpg) no-repeat;
     background-size: cover;
     text-align: right;
     background-position-x:0 ;
@@ -103,7 +103,7 @@ body  {
     right: 0;
     background-color: red;
     background:  linear-gradient(rgba(0,0,0, .5),rgba(0, 0 , 0, .7)),
-     url(images/2.jpg) no-repeat;
+     url(images/5.jpg) no-repeat;
     background-size: cover;
     background-position-x:-180px ;
     width: 50%;
@@ -125,7 +125,7 @@ body  {
     align-items: flex-end;
     background-color: chocolate;
     background:  linear-gradient(rgba(0,0,0, .6),rgba(0, 0 , 0, .7)),
-     url(images/3.jpg) center no-repeat;
+     url(images/7.jpg) center no-repeat;
     background-size: cover;
     z-index: -1;
     transform:translateZ(-300px) ;
@@ -182,15 +182,16 @@ button{
     height: 60px;
     width: 200px;
     top: 580px;
-    right: -70px;
+    right: -75px;
     border: none;
     outline: none;
-    color: white;
-    background: #111;
+    color: pink;
+    background: white;
     cursor: pointer;
-    border-radius: 5px;
-    font-size: 18px;
+    border-radius: 10px;
+    font-size: 20px;
     font-family: 'Raleway', sans-serif;
+    margin-bottom: 30px;
   }
   button:before{
     position: absolute;
